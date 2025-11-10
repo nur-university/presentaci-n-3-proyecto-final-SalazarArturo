@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/cssInicio/header.css">
+    <link rel="stylesheet" href="css/cssInicio/cuerpo.css">
+    <link rel="stylesheet" href="css/cssInicio/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <main id="main_container">
+        <header id="header_container">
+            <div class="item_logo_navegacion">
+                <h1 id="nombre_pagina" class="titulo">GrowTogether</h1>
+                <nav>
+                    <a href="html/inicioSesion.html">Inicio Sesion</a>
+                    <a id="ultimo" href="html/registro.html">Registrarse</a>
+                </nav>
+            </div>
+            <div class="search_bar">
+                <label id="lupa" for="search_bar_inp">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+                <input type="search" id="search_bar_inp" placeholder="Busca proyectos de tu interes ...">
+            </div>
+        </header>
+        <section class="banner_container">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="imagenes/banner-desktop-plus/logoGrowTogether-desktop-plus-view.png">
+                <source media="(min-width: 1024px)" srcset="imagenes/banner-desktop/logoGrowTogether-desktop.png">
+                <source media="(min-width: 725px)" srcset="imagenes/banner-tablet/logoGrowTogether-tablet-view.png">
+                <img id="banner" src="imagenes/banner-mobile/logoGrowTogether-mobile-view.png" alt="banner de bienvenida a GrowTogether">
+            </picture>
+        </section>
+        <section class="cuerpo_container">
+            <nav class="navegacion_categorias">
+                <label for="inp_categorias">
+                    <i class="fa-solid fa-bars"></i>
+                    Categorias
+                </label>
+                <input type="checkbox" id="inp_categorias">
+                <ul class="lista_navegacion">
+                     <li>
+                        <a class="cat" href="html/categoria_main.html">Cat1</a>
+                    </li>
+                    <li>
+                        <a class="cat" href="html/categoria_main.html">Cat2</a>                        
+                    </li>
+                    <li>
+                        <a class="cat" href="html/categoria_main.html">Cat3</a>                        
+                    </li>
+                    <li>
+                        <a class="car" href="html/categorias.html">ver todas...</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="proyectos_destacados_container">
+                <h2 class="titulo_destacados">Proyetos destacados !</h2>
+                <div class="proyectos_preview_container">
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                     <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                     <article class="item">
+                        <img class="portada_proyecto" src="imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                        <div class="datos_container">
+                            <h3 class="dato">Titulo del proyecto</h3>
+                            <p class="dato">meta financiacion</p>
+                            <div class="dato">
+                                <label for="barra_progreso">Progreso:</label>
+                                <progress id="barra_progreso" value="70" max="100">70%</progress>
+                            </div>
+                            <div class="dato">
+                                <label class="item_label" for="fecha_limite">Fecha limite:</label>
+                                <time id="fecha_limite" datetime="2025-11-6 ">6-11-2025</time>
+                            </div>
+                            <img class="dato" id="imagen_perfil_usuario" src="imagenes/recursosPrueba/usuario1.jpeg" alt="foto de perfil del usuario">
+                            <p class="nombre_usuario dato">Nombre de usuario</p>
+                            <a href="html/detalleProyecto.html">detalles del proyecto</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="">Quienes somos</a>
+        <p>Rigths Reserved</p>
+        <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+    </footer>
+</body>
+</html>

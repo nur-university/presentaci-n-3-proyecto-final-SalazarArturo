@@ -1,0 +1,40 @@
+.categorias_container{
+    padding: 10px;
+}
+.portada_proyecto{
+    width: 100%;
+}
+.titulo_categoria{
+    margin: 8px 20px 8px 0px;
+}
+.cat_container{
+    border-bottom: 1px solid black;
+}
+.header_categoria_container{
+    display: flex;
+    align-items: center;
+}
+
+@media(min-width: 375px){
+    .portada_proyecto{
+        width: 100%;
+    }
+}
+@media(min-width: 768px){
+    .cat_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media(min-width: 1024px){
+    .cat_container{
+        justify-content: flex-start;
+    }
+    .item{
+        margin-right: 20px;
+    }
+    .cat_container :last-child{
+        margin-right: 0px;
+    }
+}

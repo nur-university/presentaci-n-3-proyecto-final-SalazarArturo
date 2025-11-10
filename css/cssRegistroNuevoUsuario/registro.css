@@ -1,0 +1,44 @@
+body, html, .main{
+    height: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+#formulario{
+    background-color: lightblue;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+.titulo_form{
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 15px auto;
+    height: 20px;
+    text-align: center;
+}
+#buttom_inp{
+    border: none;
+    background-color: lightseagreen;
+    width: 100px;
+    height: 20px;
+}
+@media(min-width: 768px){
+    #formulario{
+        width: 420px;
+    }
+    input{
+        width: 200px;
+        height: 23px;
+        text-align: center;
+    }
+    #buttom_inp{
+        border: none;
+        background-color: lightseagreen;
+        width: 150px;
+    }
+}

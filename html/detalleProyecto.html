@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de proyecto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/cssInicio/header.css">
+    <link rel="stylesheet" href="../css/cssDetalleProyecto/details.css">
+</head>
+<body>
+    <main id="main_container">
+        <header id="header_container">
+            <div class="item_logo_navegacion">
+                <h1 id="nombre_pagina" class="titulo">GrowTogether</h1>
+                <nav>
+                    <a href="inicioSesion.html">Inicio Sesion</a>
+                    <a id="ultimo" href="registro.html">Registrarse</a>
+                </nav>
+            </div>
+            <div class="search_bar">
+                <label id="lupa" for="search_bar_inp">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+                <input type="search" id="search_bar_inp" placeholder="Busca proyectos de tu interes ...">
+            </div>
+        </header>
+        <section class="details_container">
+            <h2 class="proyect_name">Nombre Proyecto</h2>
+            <article class="main_article_container">
+                <div class="detail_part">
+                <img id="portada_del_proyecto" src="../imagenes/recursosPrueba/zapatos-ecologicos.webp" alt="portada del proyecto">
+                <div class="recursos_container">
+                    <img class="recurso" src="../imagenes/recursosPrueba/recursos_zapatos_ecologicos.jpg" alt="zapatico ecologio">
+                    <img class="recurso" src="../imagenes/recursosPrueba/recursos_zapatos_en_piha.webp" alt="otro zapatico ecologico">
+                    <img class="recurso" src="../imagenes/recursosPrueba/anatomia_del_zapato.jpg" alt="cuadro ilustrativo del concepto del negocio">
+                    <img class="recurso" src="../imagenes/recursosPrueba/BANANA-COLLECTION-03.png" alt="nueva coleccion">
+                </div>
+                </div>
+                <div class="detail_part second">
+                    <div class="description_container">
+                        <h3 class="subtitle">Descripcion</h3>
+                        <p class="descripcion_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Alias dolore beatae quos officia impedit, earum sit error.Ullam,
+                            placeat officia. Obcaecati labore magnam vitae officiis enim aut
+                            facilis culpa unde?
+                        </p>
+                    </div>
+        
+                    <div class="progress_container">
+                        <label for="progress_bar" id="progress_label">Progreso</label>
+                        <progress id="progress_bar" value="70" max="100">70%</progress>
+                    </div>
+                </div>
+                <div class="detail_part third">
+                    <div class="top_socios_container">
+                        <h3 class="titulo">Top socios</h3>
+                        <div class="imagen_socios_container">
+                            <div class="item">
+                                <img class="perfil_socio" src="../imagenes/recursosPrueba/usuario1.jpeg" alt="top socio 1">
+                                <p>Karen Ramirez</p>
+                            </div>
+                            <div class="item">
+                                <img class="perfil_socio" src="../imagenes/recursosPrueba/usuario1.jpeg" alt="top socio 2">
+                                <p>Arminda Mesa</p>
+                            </div>
+                            <div class="item">
+                                <img class="perfil_socio" src="../imagenes/recursosPrueba/usuario1.jpeg" alt="top socio 3">
+                                <p>Lucia Cuellar</p>
+                            </div>
+                        </div>
+                        <a href="">ver todos</a>
+                    </div>
+                    <div class="action_items">
+                        <button class="action_buttom">Financiar proyecto</button>
+                        <button class="action_buttom">Agregar a favs</button>
+                    </div>
+                </div>
+                <div class="owner_user_container">
+                    <h3 class="titulo_propietario">Usuario propietario</h3>
+                    <div class="info_container">
+                        <img class="perfil_owner" src="../imagenes/recursosPrueba/usuario1.jpeg" alt="imagen de perfil del usuario">
+                        <p class="username">Carolina Chavez</p>
+                    </div>
+                </div>
+                <div class="date_container">
+                    <label for="fecha">Fecha limite para recaudaciones:</label>
+                    <p id="fecha">25/12/2025</p>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

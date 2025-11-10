@@ -1,0 +1,109 @@
+.item_logo_navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header_container{
+    background-color:#065F46;
+    padding: 10px;
+}
+#nombre_pagina{
+    font-size: 18px;
+}
+.item_logo_navegacion a{
+    background-color: #22C55E;
+    color: black;
+    padding: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 5px; 
+}
+.search_bar{
+    padding-top: 8px;
+}
+#search_bar_inp{
+    width: 91%;
+    text-align: center;
+}
+#banner{
+    width: 320px;
+}
+@media(min-width: 375px){
+    #search_bar_inp{
+        width: 92%;
+    }
+    #banner{
+    width: 375px;
+    }
+}
+@media(min-width: 425px){
+    #search_bar_inp{
+        width: 93%;
+    }
+    #banner{
+        width: 100%;
+    }
+}
+@media(min-width: 768px){
+    #header_container{
+        position: relative;
+    }
+    .search_bar{
+        position: absolute;
+        top: 2px;
+        left: 160px;
+    }
+    #search_bar_inp{
+        width: 380px;
+        
+    }
+}
+@media(min-width: 1024px){
+    #nombre_pagina{
+        font-size: 25px;
+    }
+    #header_container{
+        height: 60px;
+    }
+    #header_container nav a{
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        padding: 8px 5px 0px;
+    }
+    .item_logo_navegacion{
+        padding-top: 4px;
+    }
+    #ultimo{
+        margin-left: 10px;
+    }
+    .search_bar{
+        top: 9px;
+        left: 265px;
+    }
+    #search_bar_inp{
+        height: 25px;
+    }
+}
+@media(min-width: 1440px){
+    #header_container{
+        height: 70px;
+    }
+    #nombre_pagina{
+        font-size: 30px;
+    }
+    #search_bar_inp{
+        height: 28px;
+        width: 800px;
+    }
+    .search_bar{
+        top: 11px;
+        left: 280px;
+    }
+    #header_container nav a{
+        width: 130px;
+        height: 33px;
+        padding-top: 9px;
+    }
+}
